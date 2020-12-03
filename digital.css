@@ -157,13 +157,15 @@ left:10%;
     width: 66%;
     height: 64%;
       position: absolute;
-    top: 150px;
+    top: 130px;
     left: 580px;
 }
 .about-section{
     width:100%;
-    height:120vh;
+    height:110vh;
     background-color: #f7f7fc;
+    /* text-align: center; */
+
 }
 .about-sectionleft{
     width: 40%;
@@ -209,13 +211,14 @@ margin-top: 10%;
 }
 .about-sectionbottom{
     width:80%;
-    height:200px;
+    height:250px;
     display: flex;
-   
+   justify-content: space-between;
     margin: auto;
+    margin-bottom: 5%;
 }
 .about-sectionbottom-img{
-    width: 33.33%;
+    width: 32%;
     height: 250px;
     text-align: center;
     margin-top: -75px;
@@ -246,10 +249,10 @@ img{
 .aboutus-container{
     width:80%;
    
-    margin: auto;
-    margin-top: 80px;
+    margin: 10%;
+  
     display: flex;
-    margin-bottom: 70px;
+   
 }
 .aboutus-container1{
     width:45%;
@@ -268,13 +271,15 @@ img{
     font-family: "Poppins", Sans-serif;
     font-size: 16px;
     font-weight: 400;
-    padding-top: 10px;
+    padding-top: 5%;
+    /* text-align: center; */
 }
 .aboutus-container1-title{
     color: #2f3a5f;
     font-family: "Poppins", Sans-serif;
     font-size: 32px;
     line-height: 1.4em;
+    /* text-align: center; */
 }
 .aboutus-container1-subtitle
 {
@@ -348,6 +353,60 @@ img{
     color: grey;
     font-weight: 500;
 }
+
+.cardbox-column-wrap{
+    width:80%;
+    height:250px;
+   text-align: center;
+    margin: auto;
+
+}
+.cardbox-column{
+    width:32%;
+    height:250px;
+    float: left;
+    margin: 0 6px;
+    transition: 0.5s;
+   
+   
+
+}
+.cardbox-column:hover{
+    box-shadow: 1px 1px 10px grey;
+    border-radius: 15px;
+}
+.column-icon{
+    width: 105px;
+    height: 105px;
+    border-radius: 100%;
+    border: 3px solid #FF6334;
+    margin: 10% auto;
+
+}
+.column-icon i{
+    font-size: 4em;
+    padding-top: 30px;
+    color:#FF6334 ;
+}
+.column-wrap-text{
+    text-align: center;
+    color: #2F3A5F;
+    text-transform: capitalize;
+}
+
+
+
+.our-services{
+    width:100%;
+    height:120vh;
+    background-color: #f7f7fc;
+    text-align: center;
+
+}
+
+
+
+
 .aboutus-section{
     width:100%;
     height:100vh;
@@ -365,17 +424,25 @@ img{
 .aboutus-section-box{
     width:320px;
     height:400px;
-
+    float: left;
+    margin-right: 5%;
 }
 .image-wrapper{
     width:320px;
     height:320px;
-   
+
     background-image: url(https://devyangpatel.com/wp-content/uploads/2020/02/D1-1.jpeg);
     background-size: cover;
 }
 .section-box:hover  .image-wrapper{
     background-color: black;
+}
+.image-wrapper2{
+    width:320px;
+    height:320px;
+  
+    background-image: url(https://devyangpatel.com/wp-content/uploads/2020/02/S1-1.jpeg);
+    background-size: cover;
 }
 .image-title{
     color: #2f3a5f;
